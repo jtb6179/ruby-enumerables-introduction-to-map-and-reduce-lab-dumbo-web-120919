@@ -44,7 +44,7 @@ def reduce_to_total(source_array, starting_point = 0)
   total_thing = starting_point
   counter = 0 
   while counter < source_array.size do
-    total_thing
+    total_thing += source_array[counter]
     counter += 1
   end
   return total_thing
